@@ -12,7 +12,12 @@ code {
     monospace;
 }
 
-.links{
-  display: inline-flex;
-  gap: 2vw;
+.me-img {
+  width: 275px;
+  height: auto;
 }
+
+.aboutMe {
+
+}
+

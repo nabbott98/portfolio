@@ -5,7 +5,7 @@ import { Image } from 'semantic-ui-react'
 
 // Import Link Icons
 import github from '../assets/github-50.png'
-import linkedin from '../assets/linkedin-48.png'
+import linkedin from '../assets/linkedin-50.png'
 import resume from '../assets/resume-50.png'
 
 const Header = () => {
@@ -13,18 +13,23 @@ const Header = () => {
         <div className="header">
             <h1>Nick Abbott</h1>
             <h3>Software Engineer | Full Stack Developer | Mechanical Engineer</h3>
-            <div className="links">
-                {/* Github */}
-                <Image 
-                    src = { github }
-                    href = "https://github.com/nabbott98"
-                />
-                {/* LinkedIn */}
-                <Image src={linkedin}/>
-                {/* Resume */}
-                <Image src={resume}/>
-            </div>
-            
+            <Image.Group size='miny'>
+                    {/* Github */}
+                    <Image 
+                        src = { github }
+                        href = "https://github.com/nabbott98"
+                    />
+                    {/* LinkedIn */}
+                    <Image 
+                        src = { linkedin }
+                        href = "https://www.linkedin.com/in/nicksabbott/"
+                    />
+                    {/* Resume */}
+                    <Image 
+                        src = { resume }
+                        href = "https://docs.google.com/document/d/1Jw-zVnNLAMp9knGbqrHMPUO76nRaxlO8hSAa0bTYBm0/export?format=pdf"
+                    />
+            </Image.Group>
         </div>
     )
 }
