@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Import Semantic resources
-import { Image } from 'semantic-ui-react'
+import { Container, Image } from 'semantic-ui-react'
 
 // Import Link Icons
 import github from '../assets/github-50.png'
@@ -10,9 +10,10 @@ import resume from '../assets/resume-50.png'
 
 const Header = () => {
     return (
-        <div className="header">
+        <Container className="header">
             <h1>Nick Abbott</h1>
-            <h3>Software Engineer | Full Stack Developer | Mechanical Engineer</h3>
+            <h3
+                >Software Engineer | Full Stack Developer | Mechanical Engineer</h3>
             <Image.Group size='miny'>
                     {/* Github */}
                     <Image 
@@ -30,7 +31,7 @@ const Header = () => {
                         href = "https://docs.google.com/document/d/1Jw-zVnNLAMp9knGbqrHMPUO76nRaxlO8hSAa0bTYBm0/export?format=pdf"
                     />
             </Image.Group>
-        </div>
+        </Container>
     )
 }
 

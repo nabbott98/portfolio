@@ -1,0 +1,17 @@
+{
+"projects": [
+    {
+        "image": "../assets/duck-hunt.jpeg",
+        "title": "Duck Hunt™ Remake",
+        "description": "This game...",
+        "languages": "HTML5, CSS, JS"
+    },
+    {
+        "image": "../assets/spacr-home.png",
+        "title": "SPACR",
+        "description": "This app allows users to look at NASA's Astronomy picture of the day, add them to a database with full CRUD",
+        "languages": "HTML5, CSS, JS, Liquid.js, MONGODB, EXPRESS"
+    }
+
+]
+}
