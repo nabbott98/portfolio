@@ -34,16 +34,16 @@ code {
 
 .projects{
   text-align: center;
-  border-top: "black 0.25rem solid";
+  border-top: black 0.25rem solid;
   padding-bottom: 3vh;
 }
 
 .projects-container{
   margin-top: "3rem";
-  justify-content: "center";
+  justify-content: center;
 }
 
 .skills{
   text-align: center;
-  padding-top: 5rem;
+  border-top: black 0.25rem solid;
 }

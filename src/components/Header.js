@@ -19,11 +19,13 @@ const Header = () => {
                     <Image 
                         src = { github }
                         href = "https://github.com/nabbott98"
+                        target="_blank"
                     />
                     {/* LinkedIn */}
                     <Image 
                         src = { linkedin }
                         href = "https://www.linkedin.com/in/nicksabbott/"
+                        target="_blank"
                     />
                     {/* Resume */}
                     <Image 
