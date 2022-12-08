@@ -17,7 +17,7 @@ code {
   height: auto;
 }
 
-.header {
+.page-header {
   text-align: center;
   margin-top: 3vh;
   margin-bottom: 3vh;
@@ -36,6 +36,7 @@ code {
   text-align: center;
   border-top: black 0.25rem solid;
   padding-bottom: 3vh;
+  padding: 3vh 5vw 3vh 5vw;
 }
 
 .projects-container{
@@ -46,4 +47,8 @@ code {
 .skills{
   text-align: center;
   border-top: black 0.25rem solid;
+}
+
+.github-repo-button{
+  background-color: #09814A;
 }

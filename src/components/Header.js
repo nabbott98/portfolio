@@ -10,7 +10,7 @@ import resume from '../assets/resume-50.png'
 
 const Header = () => {
     return (
-        <Container className="header">
+        <Container className="page-header">
             <h1>Nick Abbott</h1>
             <h3
                 >Software Engineer | Full Stack Developer | Mechanical Engineer</h3>

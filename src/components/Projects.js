@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 
 // Import Semantic resources
-import { Container, Card, Image, Icon, CardContent } from 'semantic-ui-react'
-
-// Import Project JSON Data
-// projectData =  projects.json
+import { Container, Card, Icon } from 'semantic-ui-react'
 
 import duckHuntImg from '../assets/duck-hunt.jpeg'
 import spacr from '../assets/spacr-home.png'
@@ -13,34 +10,40 @@ import bamPow from '../assets/bam-pow.png'
 
 const Projects = () => {
     return (
-        <Container className = "projects">
-            <h2>Projects</h2>
+        <Container className = "projects" fluid >
+            <h2>Recent Projects</h2>
             <Card.Group 
-                itemsPerRow={3} stackable
+                itemsPerRow={3} 
+                stackable
+                centered
                 className = "projects-container">
                 <Card
-                    href = 'https://nabbott98.github.io/duck-hunt-remake/' target= "_blank"
+                    href = 'https://nabbott98.github.io/duck-hunt-remake/' 
+                        target= "_blank" 
+                        rel="noreferrer"
+
                     image = {duckHuntImg}
                     header = "Duck Hunt™ Remake"
-                    description = "This game was createdas a starter project into HTML CSS and JS. It utilizes one main setInterval function to control all the phases of the game"
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            HTML5 | CSS | JS
+                    description = "An HTML5 canvas based browser game"
+                    meta = 'HTML5 | CSS3 | JavaScript'
+                    extra = {
+                        <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank">
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
-                    
                 />
                 <Card
                     href = 'https://spacr.fly.dev/' target="_blank"
                     image = {spacr}
-                    header = "Spacr - Built on NASA Open API"
-                    meta='Public Acc: U: user P: user'
+                    header = "SPACR - Built on NASA Open API"
+                    // meta='Public Acc: U: user P: user'
+                    meta='Liquid.js | CSS | JavaScript | MongoDB | Mongoose | Express'
                     description = "This app..."
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            HTML5 | CSS | JS | MongoDB | Express | Liquid.js
+                    extra = {
+                        <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank">
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
 
@@ -49,26 +52,27 @@ const Projects = () => {
                     // href = '' target="_blank"
                     image = {bamPow}
                     header = "Bam Pow"
-                    // meta='Public Acc: U: user P: user'
+                    meta='React.js | CSS | JavaScript | SQL | Django | Python'
                     description = "This app..."
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            HTML5 | CSS | JS | MongoDB | Express | Liquid.js
+                    extra = {
+                        <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank">
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
-
                 />
                 <Card
                     // href = '' target="_blank"
                     // image = {bamPow}
                     header = "Lane Detection"
-                    // meta='Public Acc: U: user P: user'
-                    description = "This app ustilized python and the OpenCV package to filter images to detect of a car is in the lane"
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            Python | OpenCV
+                    meta = 'Python | OpenCV'
+                    description = "This app utilized python and the OpenCV package to filter images to detect of a car is in the lane"
+                    extra = {
+                        <a 
+                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
+                            >
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
 
@@ -77,12 +81,14 @@ const Projects = () => {
                     // href = '' target="_blank"
                     // image = {bamPow}
                     header = "Ring Doorbell"
-                    // meta='Public Acc: U: user P: user'
+                    meta = 'Python | OpenCV | Twilio API'
                     description = "This app ustilized python and the OpenCV package to filter images to detect of a car is in the lane"
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            Python | OpenCV | Twilio
+                    extra = {
+                        <a 
+                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
+                            >
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
 
@@ -91,12 +97,14 @@ const Projects = () => {
                     // href = '' target="_blank"
                     // image = {bamPow}
                     header = "QR Code Scanner"
-                    // meta='Public Acc: U: user P: user'
+                    meta = 'Python | OpenCV | QR Code Library'
                     description = "This app ustilized python and the OpenCV package to filter images to detect of a car is in the lane"
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            Python | OpenCV | QR Code Library
+                    extra = {
+                        <a 
+                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
+                            >
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
 
@@ -105,12 +113,14 @@ const Projects = () => {
                     // href = '' target="_blank"
                     // image = {bamPow}
                     header = "Medical Robot"
-                    // meta='Public Acc: U: user P: user'
+                    meta='MATLAB | Arduino | Images Calibration'
                     description = "This app ustilized python and the OpenCV package to filter images to detect of a car is in the lane"
-                    extra = {    
-                        <a>
-                            <Icon name='code' />
-                            MATLAB | Arduino | Images Calibration
+                    extra = {
+                        <a 
+                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
+                            >
+                            <Icon name='github' />
+                            View Github Repo
                         </a>
                     }
 
@@ -121,3 +131,15 @@ const Projects = () => {
 }
 
 export default Projects
+
+{/* <Card>
+<Image src = {duckHuntImg}/>
+<Card.Content>
+    <Card.Header>Example Project</Card.Header>
+</Card.Content>
+<div class="ui bottom attached button">
+    <i class="github icon"></i>
+    View Github Repo
+</div>
+
+</Card> */}

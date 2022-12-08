@@ -1,9 +1,9 @@
 # Portfolio Requirments
 
 ## Homepage
-- [ ] My homepage is simple and welcoming.
-- [ ] There is a clear, concise introduction that includes my name and professional title and succinctly communicates what I do. 
-- [ ] There is an easy-to-navigate layout that makes it clear to my audience where they can go for more information.
+- [X] My homepage is simple and welcoming.
+- [X] There is a clear, concise introduction that includes my name and professional title and succinctly communicates what I do. 
+- [X] There is an easy-to-navigate layout that makes it clear to my audience where they can go for more information.
 
 ## About Me
 - [ ] I share some of my personality and let my audience to connect with the person behind the work. 
@@ -12,19 +12,21 @@
 - [ ] I include a downloadable version of my resume.
 
 ## Projects
-- [ ] I include photo and/or video artifacts of my work, including outlines, sketches, doodles, prototypes, wireframes, lists, and Post-its, to help document my work process and problem solving skills. 
+- [X] I include photo and/or video artifacts of my work, including outlines, sketches, doodles, prototypes, wireframes, lists, and Post-its, to help document my work process and problem solving skills. 
 (UXDI only) I Include a case study for each project, outlining the story of each project in a clear, concise, yet robust way that allows the reader to clearly see the project from start to finish and any lessons learned along the way
-- [ ] I formatted my portfolio section to give my audience a high level overview of my projects with a brief introduction, and an option to choose which projects to explore further.
-- [ ] I showcase a minimum of three projects, or am actively working to showcase three projects.
-- [ ] I show growth over time with each project.
-- [ ] I vary the types of projects that I showcase to show a versatility of skills. 
-- [ ] I keep my “Portfolio” section current and updated with projects completed within the last six months.
+- [X] I formatted my portfolio section to give my audience a high level overview of my projects with a brief introduction, and an option to choose which projects to explore further.
+- [X] I showcase a minimum of three projects, or am actively working to showcase three projects.
+- [X] I show growth over time with each project.
+- [X] I vary the types of projects that I showcase to show a versatility of skills. 
+- [-] I keep my “Portfolio” section current and updated with projects completed within the last six months.
+
+Recent projects section? and Favorite Past projects section?
 
 ## Contact Me
-- [ ] I make it easy for my audience to contact me. 
-- [ ] I Include a contact form, my email address, or both in this section. 
-- [ ] Linkedin Link
-- [ ] Github Link
+- [X] I make it easy for my audience to contact me. 
+- [X] I Include a contact form, my email address, or both in this section. 
+- [X] Linkedin Link
+- [X] Github Link
 
 ## Thought leadership
 - [ ] I chose and include the platform that best meets my needs to showcase my thought leadership (i.e. blog, Medium profile, LinkedIn, etc.).
