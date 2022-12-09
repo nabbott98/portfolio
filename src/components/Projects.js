@@ -4,8 +4,8 @@ import React from 'react'
 // Import Semantic resources
 import { Container, Card, Icon } from 'semantic-ui-react'
 
-import duckHuntImg from '../assets/duck-hunt.jpeg'
-import spacr from '../assets/spacr-home.png'
+import duckHuntImg from '../assets/duck-hunt.png'
+import spacr from '../assets/spacr.png'
 import bamPow from '../assets/bam-pow.png'
 
 const Projects = () => {
