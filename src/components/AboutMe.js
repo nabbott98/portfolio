@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Import Semantic resources
-import { Container, Image, Segment, Grid, Divider } from 'semantic-ui-react'
+import { Container, Image } from 'semantic-ui-react'
 
 // Import Picture of Nick
 import me from '../assets/me.jpeg'
