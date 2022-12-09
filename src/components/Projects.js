@@ -22,7 +22,7 @@ const Projects = () => {
                     href = 'https://nabbott98.github.io/duck-hunt-remake/' target= "_blank" rel="noreferrer"
                     image = {duckHuntImg}
                     header = "Duck Hunt™ Remake"
-                    description = "An HTML5 canvas based browser game"
+                    description = "An HTML5 canvas based browser game."
                     meta = 'HTML5 | CSS3 | JavaScript'
                     extra = {
                         <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank" rel="noreferrer">
@@ -37,7 +37,7 @@ const Projects = () => {
                     header = "SPACR - Built on NASA Open API"
                     // meta='Public Acc: U: user P: user'
                     meta='JavaScript | Liquid.js | MongoDB | Express | Mongoose | CSS'
-                    description = "This app builds off of the NASA Open API Astronomy Pictures of the Day by providing a space for users to store these pictures and comment on ones other users added to the database. This app is built using a MongoDB Express Backend and a Liquid.JS frontend"
+                    description = "This app builds off of the NASA Open API Astronomy Pictures of the Day by providing a space for users to store these pictures and comment on ones other users added to the database. This app is built using a MongoDB Express Backend and a Liquid.JS frontend."
                     extra = {
                         <a href = 'https://github.com/nabbott98/spacr' target="_blank" rel="noreferrer">
                             <Icon name='github' />
@@ -92,7 +92,7 @@ const Projects = () => {
                     // image = {bamPow}
                     header = "QR Code Scanner"
                     meta = 'Python | OpenCV | QR Code Library'
-                    description = "This QR code scanner was built with python and a QRcode library on a RaspberryPi with a camera to scan qrcodes and display the contents on the screen in real time"
+                    description = "This QR code scanner was built with python and a QRcode library on a RaspberryPi with a camera to scan qrcodes and display the contents on the screen in real time."
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
