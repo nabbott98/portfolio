@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Import Semantic resources
-import { Container, Image, Button, Icon } from 'semantic-ui-react'
+import { Container, Image } from 'semantic-ui-react'
 
 // Import Link Icons
 import github from '../assets/github-50.png'
@@ -21,7 +21,7 @@ const Header = () => {
                         href = "https://github.com/nabbott98"
                         target="_blank"
                         title="GitHub Icon"
-
+                        rel="noreferrer"
                     />
                     {/* LinkedIn */}
                     <Image 
@@ -29,12 +29,14 @@ const Header = () => {
                         href = "https://www.linkedin.com/in/nicksabbott/"
                         target="_blank"
                         title="LinkedIn Icon"
+                        rel="noreferrer"
                     />
                     {/* Resume */}
                     <Image 
                         src = { resume }
                         href = "https://docs.google.com/document/d/1Jw-zVnNLAMp9knGbqrHMPUO76nRaxlO8hSAa0bTYBm0/export?format=pdf"
                         title="Resume Icon"
+                        rel="noreferrer"
                     />
             </Image.Group>
 

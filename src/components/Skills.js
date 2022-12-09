@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 
 // Import Semantic resources
@@ -7,7 +7,7 @@ import { Container, Card } from 'semantic-ui-react'
 // Import Project JSON Data
 // projectData =  projects.json
 
-import pythonGif from '../assets/python.png'
+// import pythonGif from '../assets/python.png'
 
 const skills = ['JavaScript', 'Python', 'C', 'C++', 'HTML', 'CSS', 'SQL', 'Django', 'MongoDB', 'Express', 'Mongoose', 'SQL Database', 'NoSql Database', 'React', 'Liquid.js', 'REST API', 'node.js', 'Morgan', 'Bcrypt', 'OpenCV', 'Postman', 'TwilioAPI', 'MATLAB', 'Arduino']
 

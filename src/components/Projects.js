@@ -19,30 +19,27 @@ const Projects = () => {
                 centered
                 className = "projects-container">
                 <Card
-                    href = 'https://nabbott98.github.io/duck-hunt-remake/' 
-                        target= "_blank" 
-                        rel="noreferrer"
-
+                    href = 'https://nabbott98.github.io/duck-hunt-remake/' target= "_blank" rel="noreferrer"
                     image = {duckHuntImg}
                     header = "Duck Hunt™ Remake"
                     description = "An HTML5 canvas based browser game"
                     meta = 'HTML5 | CSS3 | JavaScript'
                     extra = {
-                        <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank">
+                        <a href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
                     }
                 />
                 <Card
-                    href = 'https://spacr.fly.dev/' target="_blank"
+                    href = 'https://spacr.fly.dev/' target="_blank" rel="noreferrer"
                     image = {spacr}
                     header = "SPACR - Built on NASA Open API"
                     // meta='Public Acc: U: user P: user'
                     meta='JavaScript | Liquid.js | MongoDB | Express | Mongoose | CSS'
                     description = "This app builds off of the NASA Open API Astronomy Pictures of the Day by porviding a space for users to store these pictures and comment on ones other users added to the database. This app is built using a MongoDB Express Backend and a Liquid.JS frontend"
                     extra = {
-                        <a href = 'https://github.com/nabbott98/spacr' target="_blank">
+                        <a href = 'https://github.com/nabbott98/spacr' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -56,7 +53,7 @@ const Projects = () => {
                     meta='Python | JavaScript | React | Django | SQL | CSS'
                     description = "Bam Pow is a comic book catalogging and reccomondation app built using a Django React stack. This app features multiple many to many relationships in the backend and a fully functional front end with full CRUD granted to admin users"
                     extra = {
-                        <a href = 'https://github.com/nabbott98/react-comics' target="_blank">
+                        <a href = 'https://github.com/nabbott98/react-comics' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -69,9 +66,7 @@ const Projects = () => {
                     meta = 'Python | OpenCV'
                     description = "This app utilized python and the OpenCV package to filter images to detect of a car is in the lane"
                     extra = {
-                        <a 
-                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
-                            >
+                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -85,9 +80,7 @@ const Projects = () => {
                     meta = 'Python | OpenCV | Twilio API'
                     description = "Using a raspberry pi with a camera I build a DIY Ring Doorbell which could detect if someone had enterred a user designated area. Upon detection the raspberry pi would email pictures taken, upload video to drop box and send the user a text that someone/something was inside the area"
                     extra = {
-                        <a 
-                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
-                            >
+                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -101,9 +94,7 @@ const Projects = () => {
                     meta = 'Python | OpenCV | QR Code Library'
                     description = "This QR code scanner was built with python and a QRcode library on a RaspberryPi with a camera to scan qrcodes and display the contents on the computer screen in real time"
                     extra = {
-                        <a 
-                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
-                            >
+                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -116,9 +107,7 @@ const Projects = () => {
                     meta='MATLAB | Arduino | Images Calibration'
                     description = "I built this robot for a medical robots course. It had 3 linear movers and utilized a camera to locate fiducial markers with which the position of surgery sites could be calculated. This Robot used MATLAB for the calculations and an arduino microcontroller to run the robot."
                     extra = {
-                        <a 
-                            // href = 'https://github.com/nabbott98/duck-hunt-remake' target="_blank"
-                            >
+                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
                             View Github Repo
                         </a>
@@ -130,15 +119,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-{/* <Card>
-<Image src = {duckHuntImg}/>
-<Card.Content>
-    <Card.Header>Example Project</Card.Header>
-</Card.Content>
-<div class="ui bottom attached button">
-    <i class="github icon"></i>
-    View Github Repo
-</div>
-
-</Card> */}
