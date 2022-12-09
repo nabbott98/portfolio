@@ -20,7 +20,7 @@ code {
 .page-header {
   text-align: center;
   padding-top: 3vh;
-  padding-bottom: 3vh;
+  /* padding-bottom: 3vh; */
   /* background-color: #09814A;
   color: white; */
 }
@@ -79,6 +79,22 @@ code {
   background-color: #2D4739;
 }
 
-.github-repo-button{
-  /* background-color: #09814A; */
+.nav-items {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: #121619;
+  padding: 0.5rem;
+  }
+
+.nav-items p {
+  padding:  0 2vw 0 2vw;
+}
+
+.link-text{
+  color: white;
+}
+
+.link-text:hover {
+  color: #c3dac3;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from "react-router-hash-link"
 
 // Import Semantic resources
 import { Container, Image } from 'semantic-ui-react'
@@ -39,18 +40,23 @@ const Header = () => {
                         rel="noreferrer"
                     />
             </Image.Group>
-
-            {/* <Button.Group>
-            <Button color='black'>
-                <Icon name='github' /> GitHub
-            </Button>
-            <Button color='linkedin'>
-                <Icon name='linkedin' /> LinkedIn
-            </Button>
-            <Button color='linkedin'>
-                <Icon name='id badge' /> Resume
-            </Button>
-            </Button.Group> */}
+            <div className="nav-items">
+                <Link
+                    smooth
+                    className = "link-text"
+                    to="/pathLink#Projects"
+                >
+                    Projects
+                </Link>
+                <p> </p>
+                <Link 
+                    smooth 
+                    className = "link-text"
+                    to="/pathLink#Skills" 
+                >
+                    Skills
+                </Link>
+            </div>
         </Container>
     )
 }

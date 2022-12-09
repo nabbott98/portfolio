@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 // Import Semantic resources
 import { Container, Card } from 'semantic-ui-react'
 
@@ -21,10 +20,9 @@ const skillsJSX = skills.map((Skill, index) => (
 
 ))
 
-
 const Skills = () => {
     return (
-        <Container className = "skills" fluid>
+        <Container className = "skills" id="Skills" fluid>
             <h2>Skills</h2>
             <Card.Group 
                 itemsPerRow = {7} 

@@ -1,5 +1,8 @@
 import './App.css'
 
+// Import HashLink related react components
+import { BrowserRouter } from "react-router-dom"
+
 // Import Components
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
@@ -9,10 +12,12 @@ import Skills from './components/Skills'
 function App() {
   return (
     <>
-      <Header/>
-      <AboutMe/>
-      <Projects/>
-      <Skills/>
+        <BrowserRouter>
+          <Header/>
+          <AboutMe/>
+          <Projects/>
+          <Skills/>
+        </BrowserRouter>
     </>
   )
 }

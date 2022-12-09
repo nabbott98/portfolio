@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 // Import Semantic resources
 import { Container, Card, Icon } from 'semantic-ui-react'
 
@@ -10,7 +9,7 @@ import bamPow from '../assets/bam-pow.png'
 
 const Projects = () => {
     return (
-        <Container className = "projects" fluid >
+        <Container className = "projects" id = "Projects" fluid >
             <h2>Recent Projects</h2>
             <h4>Click Bouncing Tiles to View Deployed Projects</h4>
             <Card.Group 

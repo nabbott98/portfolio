@@ -8,7 +8,7 @@ import me from '../assets/me.jpeg'
 
 const AboutMe = () => {
     return (
-            <Container fluid className = "about-me">
+            <Container fluid className = "about-me" id = "AboutMe">
                 <h2 style = {{textAlign: 'center'}}>About Me</h2>
                 <div className = "about-me-container">
                     <Image 
