@@ -19,24 +19,52 @@ code {
 
 .page-header {
   text-align: center;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  /* background-color: #09814A;
+  color: white; */
+}
+
+.page-header h1 {
+  color: #2D4739;
+  font-size: 4rem;
+}
+
+.page-header h3 {
+  color: #2D4739;
+  /* font-size: 4rem; */
 }
 
 .about-me {
-  display: inline-flex;
+  padding: 3vh 5vw 3vh 5vw;
+  background-color: #2D4739;
+  color: white
+}
+
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.about-me-contents-container {
+  margin: 2vw;
+  font-size: 1.5rem;
+  height: 100;
+  display: table;
+  width: 62vw;
 }
 
 .about-me-contents {
-  margin: 4vw;
-
+  display: table-cell;
+  vertical-align: middle;
 }
-
 .projects{
   text-align: center;
-  border-top: black 0.25rem solid;
-  padding-bottom: 3vh;
   padding: 3vh 5vw 3vh 5vw;
+  color: #2D4739;
+  /* background-color: #09814A; */
 }
 
 .projects-container{
@@ -46,9 +74,11 @@ code {
 
 .skills{
   text-align: center;
-  border-top: black 0.25rem solid;
+  padding: 3vh 5vw 3vh 5vw;
+  color: white;
+  background-color: #2D4739;
 }
 
 .github-repo-button{
-  background-color: #09814A;
+  /* background-color: #09814A; */
 }
