@@ -20,10 +20,9 @@ const AboutMe = () => {
                     <div className = "about-me-contents-container">
                         <div className="about-me-contents">
                         <p>
-                            I am a mechanical engineer who turned a passion for software into becoming a software engineer and web developer. I have been trained as a full stack developer, and utilize my technical analysis skills when solving problems. Creatively solving challenging problems under pressure excites me. Additionally, exceptional work ethic and efficient solutions are things that I bring to every team with a positive attitude.
-                        </p>
+                            I am an engineer with a passion for solving complex problems. I started my career as a mechanical engineer and am now a full stack developer. As a software engineer and web developer, I use my technical analysis training to solve problems. I have demonstrated exceptional work ethic and team leadership skills in my professional career. I bring strong collaboration skills and a positive attitude to every team.                        </p>
                         <p>
-                            I earned a Bachelors Degree in Mechanical Engineering from the University of Maryland in 2020
+                            I earned a Bachelor of Science in Mechanical Engineering from the University of Maryland in 2020.
                         </p>
                         {/* <Link></Link> */}
                         <Button inverted icon labelPosition='left' href="mailto:nicholasabbott98@gmail.com?subject=Portfolio%20Contact">
