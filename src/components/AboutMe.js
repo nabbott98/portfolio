@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Import Semantic resources
-import { Container, Image } from 'semantic-ui-react'
+import { Container, Image, Button, Icon, Link } from 'semantic-ui-react'
 
 // Import Picture of Nick
 import me from '../assets/me.jpeg'
@@ -25,6 +25,11 @@ const AboutMe = () => {
                         <p>
                             I earned a Bachelors Degree in Mechanical Engineering from the University of Maryland in 2020
                         </p>
+                        {/* <Link></Link> */}
+                        <Button inverted icon labelPosition='left' href="mailto:nicholasabbott98@gmail.com?subject=Portfolio%20Contact">
+                            <Icon name='mail'/>
+                            Contact Me
+                        </Button>
                         </div>
                     </div>
                 </div>
