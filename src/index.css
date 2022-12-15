@@ -43,9 +43,15 @@ code {
 
 .about-me-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  
+  flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+  .about-me-container  {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .about-me-contents-container {
@@ -53,7 +59,6 @@ code {
   font-size: 1.5rem;
   height: 100;
   display: table;
-  width: 60vw;
 }
 
 .about-me-contents {

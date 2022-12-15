@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <h2 style = {{textAlign: 'center'}}>About Me</h2>
                 <div className = "about-me-container">
                     <Image 
-                        className = "about-me-container"
+                        className = "about-me-image"
                         src = { me }
                         size='large' 
                         rounded
