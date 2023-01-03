@@ -46,7 +46,7 @@ const Projects = () => {
 
                 />
                 <Card
-                    // href = '' target="_blank"
+                    href = 'https://bampow.netlify.app/' target="_blank" rel="noreferrer"
                     image = {bamPow}
                     header = "Bam Pow"
                     meta='Python | JavaScript | React | Django | SQL | CSS'
