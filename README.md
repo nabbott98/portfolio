@@ -29,11 +29,11 @@ Recent projects section? and Favorite Past projects section?
 - [X] Github Link
 
 ## Thought leadership
-- [ ] I chose and include the platform that best meets my needs to showcase my thought leadership (i.e. blog, Medium profile, LinkedIn, etc.).
-- [ ] I use my thought leadership platform to show my audience that I am intellectually curious, current, active, and working to continuously build and hone my skills.
-- [ ] I share what I am learning, how I am applying my skills, insights gained from projects that I am working on.
+- [X] I chose and include the platform that best meets my needs to showcase my thought leadership (i.e. blog, Medium profile, LinkedIn, etc.).
+- [X] I use my thought leadership platform to show my audience that I am intellectually curious, current, active, and working to continuously build and hone my skills.
+- [X] I share what I am learning, how I am applying my skills, insights gained from projects that I am working on.
 My thought leadership posts are authentic and thoughtful.
-- [ ] I update my chosen thought leadership platform regularly.
+- [X] I update my chosen thought leadership platform regularly.
 
 ## Format
 - [X] My website is clear, concise, easy to navigate and easy-to-read, and clearly showcases my work.
