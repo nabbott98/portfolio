@@ -67,7 +67,7 @@ const Projects = () => {
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
-                            View Github Repo
+                            Coming soon to GitHub
                         </a>
                     }
 
@@ -75,13 +75,13 @@ const Projects = () => {
                 <Card
                     // href = '' target="_blank"
                     // image = {bamPow}
-                    header = "Ring Doorbell"
+                    header = "Smart Doorbell"
                     meta = 'Python | OpenCV | Twilio API'
                     description = "Using a raspberry pi with a camera I built a DIY Ring Doorbell which detects if someone has entered a user designated area. Upon detection, the RaspberryPi emails pictures taken, uploads videos to a drop box and sends the user a text that someone/something was inside the area."
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
-                            View Github Repo
+                            Coming soon to GitHub
                         </a>
                     }
 
@@ -95,7 +95,7 @@ const Projects = () => {
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
-                            View Github Repo
+                            Coming soon to GitHub
                         </a>
                     }
                 />
@@ -108,7 +108,7 @@ const Projects = () => {
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
-                            View Github Repo
+                            Coming soon to GitHub
                         </a>
                     }
                 />
