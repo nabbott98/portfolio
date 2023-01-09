@@ -65,9 +65,9 @@ const Projects = () => {
                     meta = 'Python | OpenCV'
                     description = "This app utilizes python and the OpenCV package to filter images to detect if a car is in the lane."
                     extra = {
-                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
+                        <a href = 'https://github.com/nabbott98/lane-detection' target="_blank" rel="noreferrer">
                             <Icon name='github' />
-                            Coming soon to GitHub
+                            View Github Repo
                         </a>
                     }
 
