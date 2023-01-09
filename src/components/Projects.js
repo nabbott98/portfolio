@@ -6,6 +6,7 @@ import { Container, Card, Icon } from 'semantic-ui-react'
 import duckHuntImg from '../assets/duck-hunt.png'
 import spacr from '../assets/spacr.png'
 import bamPow from '../assets/bam-pow.png'
+import laneDetection from '../assets/lane-detection.png'
 
 const Projects = () => {
     return (
@@ -59,11 +60,11 @@ const Projects = () => {
                     }
                 />
                 <Card
-                    // href = '' target="_blank"
-                    // image = {bamPow}
+                    href = 'https://github.com/nabbott98/lane-detection' target="_blank"
+                    image = {laneDetection}
                     header = "Lane Detection"
-                    meta = 'Python | OpenCV'
-                    description = "This app utilizes python and the OpenCV package to filter images to detect if a car is in the lane."
+                    meta = 'Python | OpenCV | Numpy | Imutils'
+                    description = "This program utilizes Python, OpenCV, Numpy, and the Imutils packages to filter images to highlight traffic lane striping."
                     extra = {
                         <a href = 'https://github.com/nabbott98/lane-detection' target="_blank" rel="noreferrer">
                             <Icon name='github' />
