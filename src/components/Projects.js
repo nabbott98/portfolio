@@ -7,6 +7,7 @@ import duckHuntImg from '../assets/duck-hunt.png'
 import spacr from '../assets/spacr.png'
 import bamPow from '../assets/bam-pow.png'
 import laneDetection from '../assets/lane-detection.png'
+import robot from '../assets/robot.png'
 
 const Projects = () => {
     return (
@@ -60,7 +61,7 @@ const Projects = () => {
                     }
                 />
                 <Card
-                    href = 'https://github.com/nabbott98/lane-detection' target="_blank"
+                    href = 'https://github.com/nabbott98/lane-detection' target="_blank" rel="noreferrer"
                     image = {laneDetection}
                     header = "Lane Detection"
                     meta = 'Python | OpenCV | Numpy | Imutils'
@@ -72,6 +73,19 @@ const Projects = () => {
                         </a>
                     }
 
+                />
+                <Card
+                    href = 'https://www.youtube.com/watch?v=63ZHDOWiRdo&ab_channel=NickAbbott' target="_blank" rel="noreferrer"
+                    image = {robot}
+                    header = "Medical Robot"
+                    meta='MATLAB | Arduino | Image Calibration'
+                    description = "Built for a medical robots course, this robot has 3 linear movers and utilizes a camera to locate fiducial markers making the position of surgery sites easily calculable. This Robot uses MATLAB for the calculations and an Arduino microcontroller to run the robot."
+                    extra = {
+                        <a href = 'https://github.com/nabbott98/medical-robot' target="_blank" rel="noreferrer">
+                            <Icon name='github' />
+                            View Github Repo
+                        </a>
+                    }
                 />
                 <Card
                     // href = '' target="_blank"
@@ -93,19 +107,6 @@ const Projects = () => {
                     header = "QR Code Scanner"
                     meta = 'Python | OpenCV | QR Code Library'
                     description = "This QR code scanner was built with python and a QRcode library on a RaspberryPi with a camera to scan qrcodes and display the contents on the screen in real time."
-                    extra = {
-                        <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
-                            <Icon name='github' />
-                            Coming soon to GitHub
-                        </a>
-                    }
-                />
-                <Card
-                    // href = '' target="_blank"
-                    // image = {bamPow}
-                    header = "Medical Robot"
-                    meta='MATLAB | Arduino | Images Calibration'
-                    description = "Built for a medical robots course, this robot has 3 linear movers and utilizes a camera to locate fiducial markers making the position of surgery sites easily calculable. This Robot uses MATLAB for the calculations and an Arduino microcontroller to run the robot."
                     extra = {
                         <a href = 'https://github.com/nabbott98' target="_blank" rel="noreferrer">
                             <Icon name='github' />
